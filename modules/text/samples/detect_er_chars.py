@@ -17,6 +17,7 @@ if (len(sys.argv) < 2):
   quit()
 
 pathname = os.path.dirname(sys.argv[0])
+pathname = '.'
 
 img  = cv2.imread(str(sys.argv[1]))
 gray = cv2.imread(str(sys.argv[1]),0)
